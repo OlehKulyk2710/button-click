@@ -1,0 +1,30 @@
+/* * {
+    outline: green solid 1px;
+} */
+
+body {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.btn {
+    width: 150px;
+    margin: 10px;
+}
+
+.btn-click {
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-click.active {
+border-color: rgb(105, 243, 105);
+}
